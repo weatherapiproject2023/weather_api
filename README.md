@@ -68,7 +68,7 @@ https://github.com/weatherapiproject2023/weather_api/blob/main/Weather%20API-gro
 
 *Example: http://localhost:8080/api/v1/weather/forecast/london?numOfDays=4*
 
-**3. Weather Advice Rules - GETBYID/GET/PUT/POST/DELETE **
+**3. Weather Advice Rules - GETBYID/GET/PUT/POST/DELETE**
 
 **GETBYID - http://localhost:8080/api/v1/weather/admin/advice-rule/{id}**
 
