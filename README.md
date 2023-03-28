@@ -4,6 +4,11 @@ Project based on a public API to meet a set of requirements as detailed below :
 > - Weather API – Get weather information for a given location  
 > - Create advice to determine how the user should prepare for a day outside (i.e. clothes/sunscreen/umbrella/coat etc)  
 
+>> Additional Features implemented:
+- Get advice for weather forecast of the next 4 calendar days (additional days require uprade to paid public API service
+- Provide set of APIs for system administrator to add, modify or delete the busienss rules for generating advice based on weather condition
+- Use Twilio API service to send weather advice of a location via SMS to an input mobile phone number 
+-
 ## Table of contents
 * [Acceptance criteria and assumptions](#acceptance-criteria-and-assumptions)
 * [Technologies](#technologies)
@@ -45,4 +50,5 @@ https://www.youtube.com/watch?v=8ouwlSUoMQc
 
 ## Project Presentation Slides
 
-https://docs.google.com/presentation/d/1x70daC4P2Fizdb7qx-MN6kvXsYJMU1UxHLDp60PNbVg/edit#slide=id.g1dfb65a0eae_2_50
+https://github.com/weatherapiproject2023/weather_api/blob/main/Weather%20API-group-3.pdf
+
