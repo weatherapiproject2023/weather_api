@@ -59,13 +59,13 @@ https://github.com/weatherapiproject2023/weather_api/blob/main/Weather%20API-gro
 
 1. Current Weather Advice
 
-**GET - http://localhost:8080/api/v1/weather/current/{location}
+**GET - http://localhost:8080/api/v1/weather/current/{location}**
 
 *Example: http://localhost:8080/api/v1/weather/current/london*
 
 2. Current Weather Forecast Advice
 
-**GET - http://localhost:8080/api/v1/weather/forecast/{location}?numOfDays={days}
+**GET - http://localhost:8080/api/v1/weather/forecast/{location}?numOfDays={days}**
 
 *Example: http://localhost:8080/api/v1/weather/forecast/london?numOfDays=4*
 
@@ -73,7 +73,7 @@ https://github.com/weatherapiproject2023/weather_api/blob/main/Weather%20API-gro
 
 GETBYID/GET/PUT/POST/DELETE
 
-**GETBYID - http://localhost:8080/api/v1/weather/admin/advice-rule/{id}
+**GETBYID - http://localhost:8080/api/v1/weather/admin/advice-rule/{id}**
 
 *Example: http://localhost:8080/api/v1/weather/admin/advice-rule/14*
 
