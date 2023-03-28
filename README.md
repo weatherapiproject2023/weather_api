@@ -58,7 +58,6 @@ https://github.com/weatherapiproject2023/weather_api/blob/main/Weather%20API-gro
 ## WeatherManager API End Points
 
 **1. Current Weather Advice
-
 GET - http://localhost:8080/api/v1/weather/current/{location}**
 
 *Example: http://localhost:8080/api/v1/weather/current/london*
