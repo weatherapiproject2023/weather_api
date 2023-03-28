@@ -57,30 +57,29 @@ https://github.com/weatherapiproject2023/weather_api/blob/main/Weather%20API-gro
 
 ## WeatherManager API End Points
 
-**1. Current Weather Advice
-GET - http://localhost:8080/api/v1/weather/current/{location}**
+**1. Current Weather Advice**
+**GET - http://localhost:8080/api/v1/weather/current/{location}**
 
 *Example: http://localhost:8080/api/v1/weather/current/london*
 
-2. Current Weather Forecast Advice
+**2. Current Weather Forecast Advice**
 
 **GET - http://localhost:8080/api/v1/weather/forecast/{location}?numOfDays={days}**
 
 *Example: http://localhost:8080/api/v1/weather/forecast/london?numOfDays=4*
 
-3. Weather Advice Rules
-
-GETBYID/GET/PUT/POST/DELETE
+**3. Weather Advice Rules - GETBYID/GET/PUT/POST/DELETE **
 
 **GETBYID - http://localhost:8080/api/v1/weather/admin/advice-rule/{id}**
 
 *Example: http://localhost:8080/api/v1/weather/admin/advice-rule/14*
 
-**GETALL - http://localhost:8080/api/v1/weather/admin/advice-rule
+**GETALL - http://localhost:8080/api/v1/weather/admin/advice-rule**
 
 *Example: http://localhost:8080/api/v1/weather/admin/advice-rule*
 
-**PUT - http://localhost:8080/api/v1/weather/admin/advice-rule/{id}
+**PUT - http://localhost:8080/api/v1/weather/admin/advice-rule/{id}**
+
 Request body:
 {
   "id": 0,
@@ -91,6 +90,7 @@ Request body:
 }
 
 *Example: http://localhost:8080/api/v1/weather/admin/advice-rule/14
+
 Request body:
 {
   "id": 14,
@@ -100,7 +100,8 @@ Request body:
   "advice": "Very high humidity.... drink water to protect against dehydration"
 }*
 
-**POST - http://localhost:8080/api/v1/weather/admin/advice-rule
+**POST - http://localhost:8080/api/v1/weather/admin/advice-rule**
+
 Request body:
 {
   "id": 0,
@@ -111,6 +112,7 @@ Request body:
 }
 
 *Example: http://localhost:8080/api/v1/weather/admin/advice-rule
+
 Request body:
 {
   "id": 30,
@@ -120,11 +122,12 @@ Request body:
   "advice": "Dangerous Wind... stay indoor"
 }*
 
-**DELETE- http://localhost:8080/api/v1/weather/admin/advice-rule/{id}
+**DELETE- http://localhost:8080/api/v1/weather/admin/advice-rule/{id}**
 
 *Example: http://localhost:8080/api/v1/weather/admin/advice-rule/30*
 
-4. SMS WeatherAdvice API
+**4. SMS WeatherAdvice API**
+
 **GET - http://localhost:8080/api/v1/weather/sms/sendSMS/{location}?phoneNumber={number}
 
 *Example - http://localhost:8080/api/v1/weather/sms/sendSMS/bath?phoneNumber=441234123123*
