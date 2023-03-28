@@ -10,7 +10,7 @@ Project based on a public API to meet a set of requirements as detailed below :
 * [How to run the project](#how-to-run-the-project)
 * [System Design](#system-design)
 * [Product Demo](#product-demo)
-* [Project Presentation](#project-presentation)
+* [Project Presentation](#project-presentation-slides)
 
 ## Acceptance Criteria and Assumptions
 Weather service should provide current weather conditions for a given location  
