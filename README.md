@@ -38,5 +38,4 @@ https://app.diagrams.net/#Hweatherapiproject2023%2Fweather_api%2Fmain%2Fweather_
 ## Product Demo
 The following Youtube link provides a demo of the WeatherManager API:
 
-https://www.youtube.com/watch?v=l6xYHkMUHco
-
+https://www.youtube.com/watch?v=8ouwlSUoMQc
