@@ -40,8 +40,8 @@ The advice message should provide the following information:
 - On the command line execute :  
   `mvn spring-boot:run`
  OR
- - pull repo into intelliJ and ruh the main application:
- -WeatherapiApplication.class
+ Pull repo into intelliJ and run the main application:
+ - WeatherapiApplication.class
 
 ## System Design
 https://app.diagrams.net/#Hweatherapiproject2023%2Fweather_api%2Fmain%2Fweather_api_get_request.drawio
