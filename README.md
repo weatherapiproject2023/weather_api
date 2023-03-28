@@ -8,8 +8,9 @@ Project based on a public API to meet a set of requirements as detailed below :
 * [Acceptance criteria and assumptions](#acceptance-criteria-and-assumptions)
 * [Technologies](#technologies)
 * [How to run the project](#how-to-run-the-project)
-* [Project Update](#project-update)
 * [System Design](#system-design)
+* [Product Demo](#product-demo)
+* [Project Presentation](#project-presentation)
 
 ## Acceptance Criteria and Assumptions
 Weather service should provide current weather conditions for a given location  
@@ -23,10 +24,12 @@ The advice message should provide the following information:
 - java version 17
 - apache-maven-3.9.0
 - Spring/Spring Boot
+- Postgres DB/Postgres SQL 42.5.1
 - Swagger
   - http://localhost:8080/v3/api-docs
   - http://localhost:8080/swagger-ui.html
 - Health check using Spring Boot Actuator
+- Twilio SDK 8.8.0
 
 ## How to run the project
 - On the command line execute :  
@@ -39,3 +42,7 @@ https://app.diagrams.net/#Hweatherapiproject2023%2Fweather_api%2Fmain%2Fweather_
 The following Youtube link provides a demo of the WeatherManager API:
 
 https://www.youtube.com/watch?v=8ouwlSUoMQc
+
+## Project Presentation Slides
+
+https://docs.google.com/presentation/d/1x70daC4P2Fizdb7qx-MN6kvXsYJMU1UxHLDp60PNbVg/edit#slide=id.g1dfb65a0eae_2_50
