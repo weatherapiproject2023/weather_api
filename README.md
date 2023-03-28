@@ -55,3 +55,74 @@ https://www.youtube.com/watch?v=8ouwlSUoMQc
 
 https://github.com/weatherapiproject2023/weather_api/blob/main/Weather%20API-group-3.pdf
 
+## WeatherManager API End Points
+
+1. Current Weather Advice
+GET - http://localhost:8080/api/v1/weather/current/{location}
+
+*Example: http://localhost:8080/api/v1/weather/current/london*
+
+Current Weather Forecast Advice
+GET - http://localhost:8080/api/v1/weather/forecast/{location}?numOfDays={days}
+
+Example: http://localhost:8080/api/v1/weather/forecast/london?numOfDays=4
+
+Weather Advice Rules GETBYID/GET/PUT/POST/DELETE
+
+GETBYID - http://localhost:8080/api/v1/weather/admin/advice-rule/{id}
+
+Example: http://localhost:8080/api/v1/weather/admin/advice-rule/14
+
+GETALL - http://localhost:8080/api/v1/weather/admin/advice-rule
+
+Example: http://localhost:8080/api/v1/weather/admin/advice-rule
+
+PUT - http://localhost:8080/api/v1/weather/admin/advice-rule/{id}
+Request body:
+{
+  "id": 0,
+  "category": 0,
+  "lowest": "string",
+  "highest": "string",
+  "advice": "string"
+}
+Example: http://localhost:8080/api/v1/weather/admin/advice-rule/14
+Request body:
+{
+  "id": 14,
+  "category": 4,
+  "lowest": "75",
+  "highest": "100",
+  "advice": "Very high humidity.... drink water to protect against dehydration"
+}
+
+POST - http://localhost:8080/api/v1/weather/admin/advice-rule
+Request body:
+{
+  "id": 0,
+  "category": 0,
+  "lowest": "string",
+  "highest": "string",
+  "advice": "string"
+}
+
+Example: http://localhost:8080/api/v1/weather/admin/advice-rule
+Request body:
+{
+  "id": 30,
+  "category": 2,
+  "lowest": "100",
+  "highest": "120",
+  "advice": "Dangerous Wind... stay indoor"
+}
+
+DELETE- http://localhost:8080/api/v1/weather/admin/advice-rule/{id}
+
+Example: http://localhost:8080/api/v1/weather/admin/advice-rule/30
+
+SMS WeatherAdvice API
+GET - http://localhost:8080/api/v1/weather/sms/sendSMS/{location}?phoneNumber={number}
+
+Example - http://localhost:8080/api/v1/weather/sms/sendSMS/bath?phoneNumber=441234123123
+
+
