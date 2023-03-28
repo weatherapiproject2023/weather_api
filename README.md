@@ -89,9 +89,9 @@ Request body:
   "advice": "string"
 }
 
-*Example: http://localhost:8080/api/v1/weather/admin/advice-rule/14
+*Example: http://localhost:8080/api/v1/weather/admin/advice-rule/14*
 
-Request body:
+*Request body:
 {
   "id": 14,
   "category": 4,
@@ -111,9 +111,9 @@ Request body:
   "advice": "string"
 }
 
-*Example: http://localhost:8080/api/v1/weather/admin/advice-rule
+*Example: http://localhost:8080/api/v1/weather/admin/advice-rule*
 
-Request body:
+*Request body:
 {
   "id": 30,
   "category": 2,
@@ -128,7 +128,7 @@ Request body:
 
 **4. SMS WeatherAdvice API**
 
-**GET - http://localhost:8080/api/v1/weather/sms/sendSMS/{location}?phoneNumber={number}
+**GET - http://localhost:8080/api/v1/weather/sms/sendSMS/{location}?phoneNumber={number}**
 
 *Example - http://localhost:8080/api/v1/weather/sms/sendSMS/bath?phoneNumber=441234123123*
 
