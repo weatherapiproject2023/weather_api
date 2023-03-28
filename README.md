@@ -69,17 +69,20 @@ GET - http://localhost:8080/api/v1/weather/forecast/{location}?numOfDays={days}
 
 *Example: http://localhost:8080/api/v1/weather/forecast/london?numOfDays=4*
 
-Weather Advice Rules GETBYID/GET/PUT/POST/DELETE
+3. Weather Advice Rules
+
+GETBYID/GET/PUT/POST/DELETE
 
 GETBYID - http://localhost:8080/api/v1/weather/admin/advice-rule/{id}
 
-Example: http://localhost:8080/api/v1/weather/admin/advice-rule/14
+*Example: http://localhost:8080/api/v1/weather/admin/advice-rule/14*
 
 GETALL - http://localhost:8080/api/v1/weather/admin/advice-rule
 
-Example: http://localhost:8080/api/v1/weather/admin/advice-rule
+*Example: http://localhost:8080/api/v1/weather/admin/advice-rule*
 
 PUT - http://localhost:8080/api/v1/weather/admin/advice-rule/{id}
+
 Request body:
 {
   "id": 0,
@@ -88,7 +91,8 @@ Request body:
   "highest": "string",
   "advice": "string"
 }
-Example: http://localhost:8080/api/v1/weather/admin/advice-rule/14
+
+*Example: http://localhost:8080/api/v1/weather/admin/advice-rule/14
 Request body:
 {
   "id": 14,
@@ -96,7 +100,7 @@ Request body:
   "lowest": "75",
   "highest": "100",
   "advice": "Very high humidity.... drink water to protect against dehydration"
-}
+}*
 
 POST - http://localhost:8080/api/v1/weather/admin/advice-rule
 Request body:
