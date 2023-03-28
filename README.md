@@ -8,7 +8,7 @@ Project based on a public API to meet a set of requirements as detailed below :
 - Get advice for weather forecast of the next 4 calendar days (additional days require uprade to paid public API service
 - Provide set of APIs for system administrator to add, modify or delete the busienss rules for generating advice based on weather condition
 - Use Twilio API service to send weather advice of a location via SMS to an input mobile phone number 
--
+
 ## Table of contents
 * [Acceptance criteria and assumptions](#acceptance-criteria-and-assumptions)
 * [Technologies](#technologies)
@@ -39,6 +39,9 @@ The advice message should provide the following information:
 ## How to run the project
 - On the command line execute :  
   `mvn spring-boot:run`
+ OR
+ - pull repo into intelliJ and ruh the main application:
+ -WeatherapiApplication.class
 
 ## System Design
 https://app.diagrams.net/#Hweatherapiproject2023%2Fweather_api%2Fmain%2Fweather_api_get_request.drawio
